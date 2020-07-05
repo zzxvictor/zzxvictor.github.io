@@ -639,6 +639,11 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.intro-video {
+  width: 400px;
+  height:300px;
+}
+
 .testimonials .section-header {
   margin-bottom: 40px;
 }
@@ -652,7 +657,7 @@ section {
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
-}
+} 
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
@@ -712,7 +717,7 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
@@ -778,12 +783,26 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .section-title p{
+  line-height: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.services .section-title .highlight {
+  background-color: #84a98c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 0px 0px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  position: relative;
+  width: 100%;
 }
 
 .services .icon-box .icon {
@@ -845,6 +864,43 @@ section {
 .services .icon-box ul {
   font-size: 13px;
   line-height: 24px;
+}
+
+.services .icon-box .service-detail {
+  display: none;
+}
+
+.services .icon-box .detail-button {
+  background-color: #023e7d;
+  color:#fff;
+  margin: 15%;
+  border-radius: 10px;
+}
+
+.services .icon-box .detail-button:hover{
+  background-color: #c8d3d5;
+  color: #000;
+  cursor: pointer;
+}
+
+.services .icon-box .detail-hide-button {
+  display: none;
+  transition: 0.5s;
+  font-size: 25px;
+  color: #84a98c;
+}
+
+.services .icon-box .detail-hide-button:hover {
+  cursor: pointer;
+}
+
+.services .icon-box .service-description{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.services .icon-box .service-description li{
+  list-style: none;
 }
 
 .services .iconbox-blue i {
@@ -1387,6 +1443,9 @@ section {
   }
   #questionList .question {
     font-size: 20px;
+  }
+  .intro-video {
+    width: 500px;
   }
 }
 

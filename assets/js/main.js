@@ -199,4 +199,19 @@
     $(this).siblings('.answer').toggle('slow');
   });
 
+  // ========================================================================= //
+  //  Services detail Animation
+  // ========================================================================= //
+  $('.detail-button').click(function() {
+    $(this).toggle('slow');
+    $(this).siblings('.detail-hide-button').toggle();
+    $(this).siblings('.service-detail').toggle('slow');
+  });
+
+  $('.detail-hide-button').click(function() {
+    $(this).toggle();
+    $(this).siblings('.detail-button').toggle('slow');
+    $(this).siblings('.service-detail').toggle('slow');
+  })
+
 })(jQuery);
