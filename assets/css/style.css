@@ -414,13 +414,26 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
+#hero .home-logo-box {
+  width:300px;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+#hero .home-logo {
+  width:100%;
+}
+
 #hero {
-  background: url("../img/logo.png") repeat scroll center center/cover;
+  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
   background-size: 70%;
   background-repeat: no-repeat;
   background-origin: initial;
+  background-size: cover;
+  position: relative;
 }
 
 #hero .hero-content {
@@ -430,6 +443,13 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+#hero .hero-content .hero-span {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-right: 50%;
+  border-radius: 5px;
+  padding-top: 2%;
 }
 
 .hero-content h1 {
@@ -639,9 +659,14 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.intro-video {
-  width: 400px;
+.intro-section {
+  /* align-items: center; */
+  text-align: center;
+}
+
+.intro-section .intro-video {
   height:300px;
+  width: 100%;
 }
 
 .testimonials .section-header {
@@ -842,6 +867,47 @@ section {
   color: #495565;
   margin-bottom: 5%;
   border-radius: 5px;
+}
+
+.services .tutor-section {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.services .tutor-section .tutor-img-box {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 5%;
+}
+
+.services .tutor-section .tutor-item {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  background-color: #cfe5eb;
+  margin-left: 2%;
+  margin-right: 2%;
+} 
+
+.services .tutor-section .tutor-title {
+  font-weight: bold;
+  font-size: 20px;
+} 
+
+.services .tutor-section .tutor-role {
+  color: #999;
+  font-size: 15px;
+} 
+
+.services .tutor-section .tutor-item .tutor-description ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services .tutor-section .tutor-item .tutor-description li{
+  list-style: none;
 }
 
 .services .icon-box h4 {
@@ -1271,7 +1337,7 @@ section {
   width: 100%;
   height: auto;
   background: #93a8ac;
-  padding-top: 120px;
+  padding-top: 5%;
   color: white;
 }
 
