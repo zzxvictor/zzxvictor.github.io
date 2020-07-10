@@ -965,8 +965,10 @@ section {
   padding-right: 5%;
 }
 
-.services .icon-box .service-description li{
-  list-style: none;
+.services .icon-box .service-description ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .services .iconbox-blue i {
@@ -1745,6 +1747,8 @@ blockquote {
   #founder .div-img-bg {
     padding: 0;
     margin-top: 20px;
+    width:80%;
+    margin-left: 10%;
   }
   #founder .div-img-bg .founder-img img {
     margin-top: 0%;
@@ -1763,12 +1767,31 @@ blockquote {
   .intro-video {
     width: 500px;
   }
+  /* Services */
+  #services .icon-box .service-detail .service-description {
+    text-align: left;
+    padding: 5%;
+  }
+
+  #services .icon-box .service-detail .payment ul{
+    text-align: left;
+  }
+
+  /* Journal */
+  .main-content .container-main .block-main .blog-image-box img {
+    max-width: 450px;
+    max-height: 350px;
+  }
 }
 
 /** Width between 767px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 767px) {
+  /* Index */
+  #hero .container .hero-content .hero-span h1 {
+    font-size: 30px;
+  }
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -1788,9 +1811,26 @@ blockquote {
     max-width: 100%;
     margin-bottom: 0;
   }
+  /* Services */
+  #services .icon-box .service-detail .service-description {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+  }
+  #services .icon-box.icon-box .payment ul{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left:5%;
+    text-align: left;
+  }
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
+  }
+  .main-content .container-main .block-main .blog-image-box img {
+    max-width: 520px;
+    max-height: 420px;
   }
   /* Contact */
   .contact-contact {
@@ -1922,6 +1962,17 @@ blockquote {
     margin-left: 0;
     float: none;
     display: inline-block;
+  }
+  /* Services */
+  #services .container .section-title .highlight {
+    font-size: 15px;
+  }
+  #services .icon-box.icon-box .payment ul{
+    padding-left: 3%;
+  }
+  /* Questions */
+  #questionList .answer{
+    font-size: 15px;
   }
 }
 
