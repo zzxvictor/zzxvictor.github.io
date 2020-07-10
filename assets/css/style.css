@@ -605,6 +605,11 @@ section {
   margin-bottom: 0;
 }
 
+.about .container .intro-description {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -1777,10 +1782,18 @@ blockquote {
     text-align: left;
   }
 
+  #services .tutor-section .tutor-item {
+    padding-left: 5%;
+    padding-right:5%;
+  }
   /* Journal */
   .main-content .container-main .block-main .blog-image-box img {
     max-width: 450px;
     max-height: 350px;
+  }
+  /* Hero */
+  #hero .hero-content .hero-span {
+    margin-right: 30%;
   }
 }
 
@@ -1824,6 +1837,10 @@ blockquote {
     margin-left:5%;
     text-align: left;
   }
+  #services .tutor-section .tutor-item {
+    padding-left: 10%;
+    padding-right:10%;
+  }
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
@@ -1845,6 +1862,10 @@ blockquote {
   }
   #questionList .question {
     font-size: 15px;
+  }
+  /* Hero */
+  #hero .hero-content .hero-span {
+    margin-right: 20%;
   }
 }
 
@@ -1893,6 +1914,10 @@ blockquote {
   }
   #questionList .question {
     font-size: 15px;
+  }
+  /* Hero */
+  #hero .hero-content .hero-span {
+    margin-right: 10%;
   }
 }
 
@@ -1952,6 +1977,20 @@ blockquote {
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
+  .main-content .container-main .block-main .blog-image-box img {
+    max-width: 350px;
+    max-height: 250px;
+  }
+
+  .single-post .blog-section-title {
+    margin-bottom: 15%;
+  }
+
+  .single-post .blog-section-title::after {
+    background: #34b7a7;
+    left: calc(45% - 25px);
+    top: 50px;
+  }
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -1973,6 +2012,10 @@ blockquote {
   /* Questions */
   #questionList .answer{
     font-size: 15px;
+  }
+  /* Hero */
+  #hero .hero-content .hero-span {
+    margin-right: 0;
   }
 }
 
