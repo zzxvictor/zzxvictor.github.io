@@ -892,7 +892,7 @@ section {
 
 .services .tutor-section {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .services .tutor-section .tutor-img-box {
@@ -907,8 +907,9 @@ section {
   justify-content: center;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
   background-color: #cfe5eb;
-  margin-left: 2%;
-  margin-right: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
 } 
 
 .services .tutor-section .tutor-title {
@@ -1831,8 +1832,7 @@ blockquote {
   }
 
   #services .tutor-section .tutor-item {
-    padding-left: 5%;
-    padding-right:5%;
+    margin-bottom: 5%;
   }
   /* Journal */
   .main-content .container-main .block-main .blog-image-box img {
@@ -1890,8 +1890,7 @@ blockquote {
     text-align: left;
   }
   #services .tutor-section .tutor-item {
-    padding-left: 10%;
-    padding-right:10%;
+    margin-bottom: 5%;
   }
   /* journal */
   #journal .journal-block .journal-info {
@@ -2001,6 +2000,12 @@ blockquote {
  */
 @media (max-width: 480px) {
   /* Navbar */
+  #header .logo {
+    font-size: 20px;
+  }
+  .section-title h2 {
+    font-size: 25px;
+  }
   nav {
     padding: 20px 15px;
   }
@@ -2042,6 +2047,13 @@ blockquote {
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
+  }
+  #about .intro-description ul {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #about .intro-description .content {
+    margin: 0;
   }
   /* portfolio */
   #portfolio .portfolio-list .nav li {
@@ -2094,7 +2106,17 @@ blockquote {
     font-size: 15px;
   }
   #services .icon-box.icon-box .payment ul{
-    padding-left: 3%;
+    padding-left: 5%;
+    margin-right: 0;
+  }
+  .services .tutor-section .tutor-img-box img {
+    padding-left:5%;
+    padding-right: 5%;
+    display: block;
+    max-width:100%;
+    padding:2%;
+    width: auto;
+    height: auto;
   }
   /* Questions */
   #questionList .answer{
@@ -2103,6 +2125,13 @@ blockquote {
   /* Hero */
   #hero .hero-content .hero-span {
     margin-right: 0;
+  }
+  #hero .container .hero-content .hero-span h1{
+    font-size: 32px;
+    margin-top: 8%;
+  }
+  #hero .hero-content p{
+    font-size: 18px;
   }
   #hero .home-logo-box {
     top: 50%;
