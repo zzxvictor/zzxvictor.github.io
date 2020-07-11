@@ -1480,7 +1480,8 @@ section {
 
 
 .main-content .container .blog-image-box{
-  width: 100%;
+  width: 90%;
+  padding-left: 10%;
 }
 
 .main-content .container .blog-image-box img{
@@ -1979,6 +1980,17 @@ blockquote {
     top: 55%;
   }
 }
+
+/** Width between 576px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+ @media (max-width: 576px) {
+  #portfolio .case-quote .case-image-box {
+    width: 30%;
+    margin-left: 35%;
+  }
+  
+ }
 
 /** Width between 480px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
