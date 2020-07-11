@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 # Hero
 --------------------------------------------------------------*/
 #hero .home-logo-box {
-  width:30%;
+  width:25%;
   position: absolute;
   left: 15%;
   top: 60%;
@@ -1844,8 +1844,8 @@ blockquote {
     margin-right: 30%;
   }
   #hero .home-logo-box {
-    width:40%;
-    top: 55%;
+    width:35%;
+    top: 60%;
   }
 }
 
@@ -1966,7 +1966,7 @@ blockquote {
     margin-bottom: 30px;
   }
   /* Footer */
-  #footer .socials-media ul li {
+  #footer .socials-media ul li { 
     margin-right: 0;
     margin-left: 0;
     float: none;
