@@ -2066,6 +2066,18 @@ blockquote {
   .contact-contact {
     margin-bottom: 30px;
   }
+
+  #contact .info .wechat-blog .contact-img-wrapper{
+    padding-left: 10%;
+  }
+
+  #contact .info .wechat-blog img{
+    width: 90%;
+  }
+
+  #contact .info .wechat img{
+    width: 80%;
+  }
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
