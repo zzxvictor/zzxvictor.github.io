@@ -419,10 +419,10 @@ h1, h2, h3, h4, h5, h6 {
 # Hero
 --------------------------------------------------------------*/
 #hero .home-logo-box {
-  width:500px;
+  width:30%;
   position: absolute;
-  left: 5%;
-  bottom: 15%;
+  left: 15%;
+  top: 60%;
 }
 
 #hero .home-logo {
@@ -1842,6 +1842,10 @@ blockquote {
   #hero .hero-content .hero-span {
     margin-right: 30%;
   }
+  #hero .home-logo-box {
+    width:40%;
+    top: 55%;
+  }
 }
 
 /** Width between 767px to 0
@@ -1914,6 +1918,10 @@ blockquote {
   #hero .hero-content .hero-span {
     margin-right: 20%;
   }
+  #hero .home-logo-box {
+    width:50%;
+    top: 55%;
+  }
 }
 
 /** Width between 600px to 0
@@ -1967,7 +1975,8 @@ blockquote {
     margin-right: 10%;
   }
   #hero .home-logo-box {
-    width:400px;
+    width:50%;
+    top: 55%;
   }
 }
 
@@ -2071,7 +2080,9 @@ blockquote {
     top: 50%;
   }
   #hero .home-logo-box {
-    width:300px;
+    width:60%;
+    left: 20%;
+    top: 55%;
   }
 }
 
