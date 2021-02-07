@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 35px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -2007,7 +2007,7 @@ blockquote {
   /* Navbar */
   #header .logo {
     font-size: 20px;
-    margin-right: 50%;
+    margin-right: atuo;
   }
   .section-title h2 {
     font-size: 25px;
