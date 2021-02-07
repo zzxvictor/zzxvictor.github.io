@@ -459,7 +459,7 @@ a.language {
   margin-right: 20%;
   border-radius: 5px;
   padding-top: 2%;
-  position: absolute; 
+  position: absolute;
   top: 30%;
 }
 
@@ -708,7 +708,7 @@ section {
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
-} 
+}
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
@@ -916,17 +916,17 @@ section {
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 2%;
-} 
+}
 
 .services .tutor-section .tutor-title {
   font-weight: bold;
   font-size: 20px;
-} 
+}
 
 .services .tutor-section .tutor-role {
   color: #999;
   font-size: 15px;
-} 
+}
 
 .services .tutor-section .tutor-item .tutor-description ul{
   list-style-type: none;
@@ -1398,7 +1398,7 @@ section {
 }
 
 #founder .founder-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  
   font-size: 28px;
   text-align: left;
 }
@@ -1973,7 +1973,7 @@ blockquote {
     margin-bottom: 30px;
   }
   /* Footer */
-  #footer .socials-media ul li { 
+  #footer .socials-media ul li {
     margin-right: 0;
     margin-left: 0;
     float: none;
@@ -2000,7 +2000,7 @@ blockquote {
     width: 30%;
     margin-left: 35%;
   }
-  
+
  }
 
 /** Width between 480px to 0
